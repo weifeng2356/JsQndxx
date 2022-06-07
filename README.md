@@ -30,7 +30,7 @@
 
 ### 查看结果
 
-当你完成上述流程，可以在 `Actions` 页面点击 `Mihoyo sign in` --> `build` --> `run sign`查看结果。
+当你完成上述流程，可以在 `Actions` 页面点击 `Auto JsQndxx` --> `build` --> `Run script`查看结果。
 
 - 若程序发生异常，请**先手动学习**最新一期青年大学习，再**重新获取** `laravel_session`
 
