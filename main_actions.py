@@ -40,7 +40,7 @@ def learn_lesson(s, laravel_session, lesson_id):
     }
     res = s.post(url=url, headers=headers, params=params)  # 发送请求
     res = res.json()  # 返回结果转json
-    print("%s: %s" % (lesson_id[0], res))
+    print("%s: %s" % (lesson_id, res))
     if res["status"] == 1 and res["message"] == "操作成功":
         pass
     else:
